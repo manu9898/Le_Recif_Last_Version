@@ -1,0 +1,70 @@
+<div class="navShoppingCart">
+    {% include 'nav.html.twig' %}
+</div>
+
+<div class="panierDivH2">
+    <p class="creepster-regular h2Panier animated-element">Panier</p>
+</div>
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <!-- Première carte -->
+                <div class="card mb-3 card1 d-flex flex-column flex-md-row w-100">
+                    <div class="row g-0 p-2 w-100">
+                        <div class="col-md-4 d-flex justify-content-center align-items-stretch">
+                            <div class="image-container">
+                                <img src="../pictures/medusa.jpg" class="img-fluid rounded-start" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8 cardStyle position-relative">
+                            <div class="card-body">
+                                <h3 class="card-title h3Medusa">LAMPE A POSER MEDUSA</h3>
+                                <br>
+                                <p class="card-text quantiteMedusaClass">quantité: {{ quantiteMedusa }}</p>
+                                <p class="card-text priceMedusaClass">prix : {{ priceMedusa }}€</p>
+                                <i class="fas fa-trash-can iconsCard"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Deuxième carte -->
+                <div class="card mb-3 card2 d-flex flex-column flex-md-row w-100">
+                    <div class="row g-0 p-2 w-100">
+                        <div class="col-md-4 d-flex justify-content-center align-items-stretch">
+                            <div class="image-container2">
+                                <img src="../pictures/cards/pistil.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                        </div>
+                        <div class="col-md-8 cardStyle">
+                            <div class="card-body position-relative">
+                                <h3 class="card-title h3Pistil">LAMPE A POSER PISTIL</h3>
+                                <br>
+                                <p class="card-text quantitePistilClass">quantité: {{ quantitePistil }}</p>
+                                <p class="card-text pricePistilClass">prix : {{ pricePistil }}€</p>
+                                <i class="fas fa-trash-can iconCard2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Colonne avec le sous-total -->
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 100%;">
+                    <div class="card-body d-flex flex-column align-items-center">
+                        <h5 class="card-title fst-italic fw-semibold">Sous-total : </h5>
+                        <p class="card-text fst-italic fw-semibold">{{ subtotal }}€</p>
+                        <h5 class="card-title fst-italic fw-semibold">Livraison : </h5>
+                        <p class="card-text fst-italic fw-semibold"> {{ delivery }}€</p>
+                        <h5 class="fw-semibold">{{ total }}€</h5>
+                        <a href="#" class="btn btn-danger fw-bold mt-auto w-100">Acheter</a>
+                        <img class="mt-3" src="../pictures/creditCards.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

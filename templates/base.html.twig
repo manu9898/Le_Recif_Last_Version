@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Mon Site Symfony{% endblock %}</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'><text y='1.2em' font-size='96'>⚫️</text><text y='1.3em' x='0.2em' font-size='76' fill='%23fff'>sf</text></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<header>
+    {% block header %}
+        <section class="sectionHeader " style='background-image: url("{{ asset('pictures/LeRECIF_malmousque.jpg') }}"); width: 100%; height: 130vh;  background-size: contain; background-position: center; background-repeat: no-repeat; '>
+            <div class="navbar">{% include 'nav.html.twig' %}</div>
+            <h1 class="creepster-regular element">Le récif</h1>
+        </section>
+    {% endblock %}
+</header>
+
+<div class="">
+    {% block body %}
+    {% endblock %}
+</div>
+
+<footer class="footer">
+
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    // Initialisation de ScrollReveal
+    document.addEventListener('DOMContentLoaded', function () {
+        ScrollReveal().reveal('.element', {
+            duration: 1000,
+            distance: '50px',
+            origin: 'left',
+            opacity: 0,
+            interval: 200,
+        });
+    });
+</script>
+</body>
+</html>

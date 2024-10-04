@@ -1,0 +1,1393 @@
+body{
+    background-color: #E0FAF7;
+}
+
+
+.creepster-regular{
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* *************************************************** HeaderPage ********************************************** */
+
+.sectionHeader > h1 {
+    font-size: 200px;
+    color:white;
+    letter-spacing: 10px;
+}
+
+.sectionHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative!important;
+
+}
+
+/* *************************************************** End of HeaderPage ********************************************** */
+
+
+/* *************************************************** NavBar ********************************************************* */
+
+.sectionHeader > .navbar{
+    position: absolute!important;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: -10px 0px 20px 0px;
+}
+
+
+.navElements{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 2px 10px 2px 10px;
+    text-decoration: none!important;
+}
+
+.navElements {
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.navElements:hover{
+    background-color: cyan;
+    color: white;
+
+}
+
+#enveloppe{
+    color: black;
+}
+
+#enveloppe{
+    transition: background-color 1s ease, color 1s ease;
+}
+
+#enveloppe:hover{
+    color: cyan;
+
+}
+
+/* *************************************************** End of NavBar ************************************************* */
+
+/* *************************************************** Section AboutUS *********************************************** */
+
+.aboutUs{
+    position: relative;
+    width: 100%!important;
+}
+
+.sectionAboutUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 200px;
+    flex-wrap: wrap;
+}
+
+.divPictureOne{
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+.pictureOne{
+    max-width: 100%;
+}
+
+.divPictureTwo{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.pictureTwo{
+    max-width: 100%;
+    height: auto;
+}
+
+.divPictureThree{
+
+    width:25%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pictureThree{
+    max-width: 100%;
+    height: auto;
+}
+
+.pictureSizes{
+    width:100%;
+    margin-top: 100px
+}
+
+
+
+.txtAboutUs{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.spanAboutUs{
+    font-size: 72px;
+
+}
+
+
+
+/* *************************************************** End of Section AboutUS *********************************** **** */
+
+/* *************************************************** Section Medusa *********************************************** */
+
+.medusaSection{
+    position: relative;
+    width:100%;
+    margin-top: 100px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 20px 0px;
+}
+
+
+.medusaTitle{
+    text-align: center;
+    font-size: 72px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.divsCaroussel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Conteneur général du carrousel */
+.carousel {
+    width: 100%;
+    height: auto;
+
+}
+
+/* Images du carrousel */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Conteneur central du carrousel */
+.carrousseldiv {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Les divs qui encadrent le carrousel */
+.carrousseldiv1, .carrousseldiv3 {
+    width: 30%; /* Ajuste ces colonnes pour équilibrer */
+    height: auto;
+
+}
+
+.carrousseldiv3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Boutons de navigation du carrousel */
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+    background: none;
+}
+
+/* bullets */
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+    background: none;
+    border: none;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+    background-color: transparent;
+}
+
+.carousel-control-prev svg,
+.carousel-control-next svg {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+}
+
+.carousel-control-prev svg,
+.carousel-control-next svg {
+    transition: fill 1s ease;
+}
+
+.carousel-control-prev svg:hover{
+    fill: cyan;
+}
+
+.carousel-control-next svg:hover {
+    fill: cyan;
+}
+
+.divBoxContent {
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.priceSectionMedusa{
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.listOfContentBox{
+    color: grey;
+    font-style: italic;
+}
+
+/* end of bullets */
+
+/* *************************************************** End of Section Medusa **************************************** */
+
+/* *************************************************** Section Tutoriel ********************************************* */
+
+.tutoriel{
+    position: relative;
+}
+
+.navTutoriel{
+    position: absolute;
+}
+
+.tutorielTitleDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.tutorielTitle{
+    font-size: 72px;
+}
+
+.divTutos{
+    width: calc(100%/3);
+    text-align: center;
+}
+
+.tutolistDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.tutolistSize{
+    font-size: 15px;
+}
+
+.divTutoslistFlex{
+    width: calc(100%/3);
+    text-align: center;
+}
+
+.tableLamp{
+    transform: translateX(30px);
+}
+
+.wallLightTutorial{
+    transform: translateX(60px);
+}
+
+.divVideo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+/* ***************************************************End of Section Tutoriel **************************************** */
+
+
+/* *************************************************** Section Contact *********************************************** */
+
+.divPictureContact{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coordinate{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contactDivH2{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.h2Contact{
+    font-size: 72px;
+}
+
+.sectionFive{
+    margin-bottom: 100px;
+}
+
+/* ***************************************************End of Section Contact ***************************************** */
+/* ***************************************************Section Shopping cart ****************************************** */
+
+.navShoppingCart{
+    position: relative;
+    margin-top:100px;
+}
+
+.panierDivH2{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.h2Panier{
+    font-size: 96px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px !important;
+}
+.cardStyle{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.card1{
+    min-height: 200px;
+    position: relative;
+}
+
+.h3Medusa{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.quantiteMedusaClass{
+    font-size: 20px;
+}
+.priceMedusaClass{
+    font-size: 20px;
+}
+.iconsCard{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+
+.card2{
+    min-height: 200px;
+    position: relative;
+}
+
+.h3Pistil{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.quantitePistilClass{
+    font-size: 20px;
+}
+
+.pricePistilClass{
+    font-size: 20px;
+}
+
+.iconCard2{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+
+.image-container, .image-container2 {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-container2 {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.image-container2 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+/* ***************************************************End of Section shoppingCart ************************************ */
+
+
+/* ***************************************************Section Footer ************************************************* */
+
+.smallImage {
+     max-width: 3%;
+     height: auto;
+     margin-right: 10px!important;
+     vertical-align: middle;
+ }
+
+/* ***************************************************End of Section Footer ****************************************** */
+
+
+
+
+/* *************************************************** Media Queries ************************************************* */
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+    .sectionHeader {
+        height:auto;
+        background-size: cover!important;
+        background-position: center!important;
+    }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+
+@media (min-width: 1281px) and (max-width: 1645px)  {
+    .divPictureOne{
+        margin-top: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .divPictureTwo{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    .divPictureThree{
+
+        width:100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+    }
+
+
+
+    .pictureOne{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .pictureTwo{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .pictureThree{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+        margin-top: -300px!important;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .txtDivPictureThree{
+        position: initial;
+    }
+    .sectionAboutUs{
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+    .sectionHeader {
+        height:100vh!important;
+        background-size: cover!important;
+        background-position: center!important;
+    }
+
+    .sectionHeader > h1 {
+        font-size: 150px;
+        color:white;
+        letter-spacing: 10px;
+    }
+
+    .divPictureOne{
+        margin-top: 200px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .divPictureTwo{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .divPictureThree{
+
+        width:100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .pictureOne{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .pictureTwo{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .pictureThree{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+        margin-top: -300px!important;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .txtDivPictureThree{
+        position: initial;
+    }
+    .sectionAboutUs{
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 894px) and (max-width: 1024px) {
+
+    /* CSS */
+
+    .sectionHeader {
+        height:100vh!important;
+        background-size: cover!important;
+        background-position: center!important;
+    }
+
+    .sectionHeader > h1 {
+        font-size: 100px;
+        color:white;
+        letter-spacing: 10px;
+    }
+
+    .navElements{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        border: 3px solid black;
+        border-radius: 30px;
+        padding: 2px 10px 2px 10px;
+        text-decoration: none!important;
+    }
+
+
+
+    .divPictureOne{
+        margin-top: 100px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .divPictureTwo{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .divPictureThree{
+
+        width:100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .pictureOne{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .pictureTwo{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .pictureThree{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+        margin-top: -300px!important;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .txtDivPictureThree{
+        position: initial;
+    }
+    .sectionAboutUs{
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .pictureSizes{
+        margin-top: 20px;
+    }
+
+    .spanAboutUs{
+        font-size: 30px;
+    }
+
+    .tutoriel{
+        margin-top: 100px;
+    }
+
+    .confidentialite-section{
+        transform: translateY(-150px);
+    }
+
+}
+
+
+@media (min-width: 1025px) and (orientation: landscape){
+    .tutoriel{
+        margin-top: 200px;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 1025px) and (orientation: landscape){
+    .sectionHeader{
+        height: 100vh;
+    }
+
+
+
+    .medusaSection{
+        margin-top: 200px;
+    }
+}
+
+
+@media (min-width: 894px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+    .sectionHeader > h1 {
+        font-size: 100px;
+        color:white;
+        letter-spacing: 10px;
+    }
+
+    .navElements{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        border: 3px solid black;
+        border-radius: 30px;
+        padding: 2px 10px 2px 10px;
+        text-decoration: none!important;
+    }
+    .divPictureOne{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px!important;
+    }
+
+    .divPictureTwo{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 200px!important;
+    }
+
+    .divPictureThree{
+
+        width:100%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:200px;
+    }
+
+
+
+    .pictureOne{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+        margin-top: 50px;
+    }
+
+    .pictureTwo{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .pictureThree{
+        max-width: 60%;
+        height: auto;
+        object-fit: cover;
+        background-size: cover;
+        margin-top: -300px!important;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .txtDivPictureThree{
+        position: initial;
+
+
+    }
+    .sectionAboutUs{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+
+        flex-wrap: wrap;
+    }
+
+    .pictureSizes{
+        margin-top: 20px;
+    }
+
+    .spanAboutUs{
+        font-size: 30px;
+
+    }
+
+    .priceSectionMedusa{
+        font-size: 20px;
+    }
+
+    .listOfContentBox  {
+        font-size: 10px;
+
+    }
+
+    .tutoriel{
+        margin-top: 100px;
+    }
+
+    .confidentialite-section {
+        text-align: right!important;
+        margin-bottom: 50px!important;
+        transform: translateY(-150px);
+    }
+
+    .sectionAboutUs{
+        min-height: 200vh;
+    }
+
+    .divPictureOne{
+        margin-bottom: 100px;
+    }
+
+    .medusaSection{
+        margin-top: 500px;
+    }
+
+
+}
+
+@media (max-width: 894px) {
+    .sectionAboutUs {
+        display: flex;
+        flex-direction: column-reverse!important;
+        justify-content: space-around!important;
+        padding-top: 20px;
+        flex-wrap: wrap!important;
+    }
+
+
+
+    .divPictureOne,
+    .divPictureTwo,
+    .divPictureThree {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pictureOne,
+    .pictureTwo,
+    .pictureThree {
+        max-width: 80%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .pictureSizes {
+        margin-top: 20px;
+    }
+
+    .divsCaroussel{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .carrousseldiv3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px!important;
+    }
+
+    .carrousseldiv{
+        margin-bottom: 30px;
+    }
+
+    .tutorielTitleDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .tutorielTitle{
+        font-size: 72px;
+    }
+    .divTutos{
+        width: 100%;
+    }
+
+    .tutolistDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tutolistSizeFlex{
+        width: 100%;
+    }
+
+    .tableLamp{
+        transform: translateX(0px);
+    }
+
+    .wallLightTutorial{
+        transform: translateX(0px);
+    }
+
+    .contactDivH2{
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-left: 0px!important;
+    }
+
+    @media (max-width: 894px) {
+        .row {
+            flex-direction: column-reverse;
+        }
+
+        .conseil-section {
+            text-align: left;
+            margin-bottom: 50px!important;
+        }
+
+        .confidentialite-section {
+            text-align: left!important;
+            margin-bottom: 50px!important;
+            transform: translateY(-150px);
+    }
+
+        p.text-reduced{
+
+            max-width: 50%;
+
+        }
+
+    }
+
+}
+@media (min-width: 768px) and (max-width: 893px) and (orientation: landscape){
+    .tutoriel{
+
+    }
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 768px) and (max-width: 893px) {
+
+    .sectionHeader {
+
+        background-size: cover!important;
+        background-position: center!important;
+    }
+
+    .sectionHeader > h1 {
+        font-size: 100px;
+        color:white;
+        letter-spacing: 10px;
+    }
+
+    .navElements{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+        border: 3px solid black;
+        border-radius: 30px;
+        padding: 2px 10px 2px 10px;
+        text-decoration: none!important;
+    }
+
+    .spanAboutUs{
+        font-size: 50px!important;
+    }
+    .sectionAboutUs{
+        padding-top: 100px;
+    }
+
+    .text-uppercase{
+     transform: translateY(15px);
+    }
+
+    .text-reduced{
+        font-size: 10px;
+    }
+
+    .email, .location, .name, .mentionLegales{
+        font-size: 10px;
+    }
+
+    .list-unstyled mb-0 > p {
+        font-size: 10px;
+    }
+    .carrousseldiv{
+        width: 80%;
+    }
+
+    .txtDivPictureThree{
+        transform: translateY(-100px);
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape){
+    .tutoriel{
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .sectionHeader {
+        height: 60vh!important;
+        background-size: cover!important;
+        background-position: center!important;
+    }
+
+    .sectionHeader > h1 {
+        font-size: 70px;
+        color:white;
+        letter-spacing: 10px;
+    }
+
+
+
+    .navElements{
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+        border: 3px solid black;
+        border-radius: 30px;
+        padding: 2px 10px 2px 10px;
+        text-decoration: none!important;
+    }
+
+    #enveloppe{
+        color: black;
+        font-size: 30px!important;
+    }
+
+    .spanAboutUs{
+        font-size: 50px!important;
+    }
+    .sectionAboutUs{
+        padding-top: 100px;
+    }
+
+    video{
+        width:60%;
+        margin-top: -100px;
+    }
+
+    .carrousseldiv{
+        width:80%!important;
+    }
+
+    .tutoriel{
+
+    }
+
+    .txtDivPictureThree{
+        transform: translateY(-100px);
+    }
+
+    .pelagia{
+        max-width: 60%;
+    }
+
+
+    .confidentialite-section {
+        text-align: left!important; /* Aligner Confidentialité à droite */
+        margin-bottom: 50px!important;
+        transform: translateY(0px);
+    }
+
+    .email, .location, .name, .mentionLegales{
+        font-size: 10px;
+    }
+
+    .text-reduced{
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 480px) and (orientation: landscape){
+    .tutoriel{
+        margin-top: 700px!important;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 300px) and (max-width: 480px) {
+
+    .sectionHeader {
+        height: 80vh!important;
+        background-size: cover!important;
+        background-position: center!important;
+    }
+
+    .sectionHeader > h1 {
+        font-size: 50px;
+        color:white;
+        letter-spacing: 10px;
+    }
+
+    .navElements{
+        color: black;
+        font-size: 8px;
+        font-weight: bold;
+        font-style: italic;
+        border: 3px solid black;
+        border-radius: 30px;
+        padding: 2px 10px 2px 10px;
+        text-decoration: none!important;
+    }
+
+    .txtDivPictureThree{
+        transform: translateY(-100px);
+    }
+
+    #enveloppe{
+        color: black;
+        font-size: 30px!important;
+    }
+
+    .spanAboutUs{
+        font-size: 50px!important;
+    }
+    .sectionAboutUs{
+        padding-top: 100px;
+    }
+
+    .medusaSection{
+
+    }
+
+    .divVideo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    video{
+        width:60%;
+        margin-top: -100px!important;
+    }
+
+    .carrousseldiv{
+        width:80%!important;
+    }
+
+    .tutoriel{
+
+    }
+
+    .pelagia{
+        max-width: 80%;
+    }
+
+    .confidentialite-section {
+        text-align: left!important; /* Aligner Confidentialité à droite */
+        margin-bottom: 50px!important;
+        transform: translateY(0px);
+    }
+
+    .email, .location, .name, .mentionLegales{
+        font-size: 10px;
+    }
+
+    .text-reduced{
+        font-size: 10px;
+    }
+
+}
+
+
+@media (min-width: 10px) and (max-width: 299px) and (orientation: landscape){
+    .tutoriel{
+        margin-top: 700px!important;
+    }
+}
+
+@media (min-width: 10px) and (max-width: 299px) {
+
+    .sectionHeader {
+        height: 40vh!important;
+        background-size: cover!important;
+        background-position: center!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sectionHeader > h1 {
+        font-size: 30px;
+        color:white;
+        letter-spacing: 10px;
+    }
+
+    .navElements{
+        color: black;
+        font-size: 10px;
+        font-weight: bold;
+        font-style: italic;
+        border: 3px solid black;
+        border-radius: 30px;
+        padding: 2px 10px 2px 10px;
+        text-decoration: none!important;
+    }
+
+    #enveloppe{
+        color: black;
+        font-size: 30px!important;
+    }
+
+    .spanAboutUs{
+        font-size: 30px!important;
+    }
+    .sectionAboutUs{
+        padding-top: 100px;
+    }
+
+    .tutoriel{
+
+    }
+
+    video{
+        width:80%;
+
+    }
+
+    .carrousseldiv{
+        width:80%!important;
+    }
+
+    .txtDivPictureThree{
+        transform: translateY(-100px);
+    }
+
+    .confidentialite-section {
+        text-align: left!important; /* Aligner Confidentialité à droite */
+        margin-bottom: 50px!important;
+        transform: translateY(0px);
+    }
+
+    .email, .location, .name, .mentionLegales{
+        font-size: 10px;
+    }
+
+    .text-reduced{
+        font-size: 10px;
+    }
+
+}
+
+
+@media (max-width: 768px) and (orientation: landscape){
+    .sectionHeader{
+        height: 100vh!important;
+    }
+
+    .navElements{
+        border: 2px solid black;
+    }
+    #enveloppe{
+        font-size: 25px!important;
+    }
+}
+
+@media (max-width: 768px) {
+    .navElements{
+        border: 2px solid black;
+    }
+    #enveloppe{
+        font-size: 25px!important;
+    }
+}
+/* *************************************************** End of Media Queries ****************************************** */
