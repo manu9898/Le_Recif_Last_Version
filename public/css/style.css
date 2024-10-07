@@ -88,7 +88,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 200px;
+    /*padding-top: 200px;*/
     flex-wrap: wrap;
 }
 
@@ -503,71 +503,6 @@ body{
 */
 
 
-@media (min-width: 1281px) and (max-width: 1645px)  {
-    .divPictureOne{
-        margin-top: 200px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .divPictureTwo{
-        width: 100%;
-        height: 30vh;
-        display: flex;
-        justify-content: center;
-        margin-top: 150px;
-    }
-
-    .divPictureThree{
-
-        width:100%;
-        height: 60vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 200px;
-    }
-
-
-
-    .pictureOne{
-        max-width: 60%;
-        height: auto;
-        object-fit: cover;
-        background-size: cover;
-    }
-
-    .pictureTwo{
-        max-width: 60%;
-        height: auto;
-        object-fit: cover;
-        background-size: cover;
-    }
-
-    .pictureThree{
-        max-width: 60%;
-        height: auto;
-        object-fit: cover;
-        background-size: cover;
-        margin-top: -300px!important;
-        display: flex;
-        flex-direction: column;
-    }
-
-
-
-    .txtDivPictureThree{
-        position: initial;
-    }
-    .sectionAboutUs{
-
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-}
 
 @media (min-width: 1025px) and (max-width: 1280px) {
 
@@ -623,6 +558,7 @@ body{
         height: auto;
         object-fit: cover;
         background-size: cover;
+        margin-top: 200px;
     }
 
     .pictureThree{
@@ -630,9 +566,9 @@ body{
         height: auto;
         object-fit: cover;
         background-size: cover;
-        margin-top: -300px!important;
         display: flex;
         flex-direction: column;
+        margin-bottom: 200px ;
     }
 
 
@@ -684,70 +620,6 @@ body{
     }
 
 
-
-    .divPictureOne{
-        margin-top: 100px;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-    }
-
-    .divPictureTwo{
-        width: 100%;
-        height: 30vh;
-        display: flex;
-        justify-content: center;
-    }
-
-    .divPictureThree{
-
-        width:100%;
-        height: 40vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-
-    .pictureOne{
-        max-width: 60%;
-        height: auto;
-        object-fit: cover;
-        background-size: cover;
-    }
-
-    .pictureTwo{
-        max-width: 60%;
-        height: auto;
-        object-fit: cover;
-        background-size: cover;
-    }
-
-    .pictureThree{
-        max-width: 60%;
-        height: auto;
-        object-fit: cover;
-        background-size: cover;
-        margin-top: -300px!important;
-        display: flex;
-        flex-direction: column;
-    }
-
-
-
-    .txtDivPictureThree{
-        position: initial;
-    }
-    .sectionAboutUs{
-
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
     .pictureSizes{
         margin-top: 20px;
     }
@@ -767,10 +639,14 @@ body{
 }
 
 
+
 @media (min-width: 1025px) and (orientation: landscape){
     .tutoriel{
         margin-top: 200px;
     }
+
+
+
 }
 
 /*
@@ -823,7 +699,7 @@ body{
         height: 80vh;
         display: flex;
         justify-content: center;
-        margin-top: 200px!important;
+
     }
 
     .divPictureThree{
@@ -874,7 +750,6 @@ body{
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-around;
-
         flex-wrap: wrap;
     }
 
@@ -921,7 +796,8 @@ body{
 
 }
 
-@media (max-width: 894px) {
+
+@media (max-width: 1920px) {
     .sectionAboutUs {
         display: flex;
         flex-direction: column-reverse!important;
